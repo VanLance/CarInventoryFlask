@@ -1,0 +1,62 @@
+.ct-nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ct-nav img{
+    width: 25%;
+    max-width: 100%;
+    margin-left: 2vw;
+}
+ul#horizontal-list{
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li, ul#horizontal-list a{
+    display: inline;
+    text-decoration: none;
+    padding: 0.5vw;
+    color: black;
+}
+
+ul#horizontal-list a:nth-last-child(1){
+    border: 2px solid blue;
+    border-radius: 11px;
+    margin-right: 0.2vw;
+}
+
+/*  End of Nav Styles  */
+
+/* Profile Styles Section */
+.hero-section{
+    height: 95vh;
+    background-image:linear-gradient(to right bottom, rgba(142, 57, 153, 0.6), rgba(235, 232, 68, 0.938)), url(../css/images/car_lot.jpg);
+    background-size: cover;
+    background-position: 35%;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+    position: relative;
+}
+.header-text{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    left: 20rem;
+    top: 10rem;
+    color: white;
+}
+
+/* Start of Hero/Header Section Styles */
+#header-text{
+    padding: 2vw;
+}
+
+.header-image{
+    width:82%;
+    max-width: 100%;
+    }
+
+/* End of Hero/Header Section Styles */
