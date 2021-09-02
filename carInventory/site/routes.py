@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template
-
+from flask_login.utils import login_required
 '''
     Note that in the below code,
     some arguments are specified when creating the Blueprint object
@@ -16,5 +16,6 @@ def home():
     return render_template('index.html')
 
 @site.route('/profile')
+@login_required
 def profile():
     return render_template('profile.html')
